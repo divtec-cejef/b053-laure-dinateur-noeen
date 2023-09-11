@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Open+Sans&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #fdfffc;
     color: #011627;
     font-size: 100%;
     line-height: 1.4;
     font-family: "Open Sans", sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -27,4 +32,21 @@ p {
 a {
     color: #e71d36;
     text-decoration: none;
+}
+
+header {
+    background-color: black;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.75rem;
+    line-height: 0.8;
+    margin: 1rem 0;
+}
+
+header h2 {
+    margin: -5px;
 }
