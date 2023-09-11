@@ -60,13 +60,14 @@ header nav {
 header nav ul {
     margin: 0 10px;
     padding: 0;
+    display: inline-flex;
+    gap: 30px;
 }
 
 header nav li {
     padding: 0;
     list-style: none;
     display: inline-block;
-    /*ajouter espace de 30 px entre*/
 }
 
 header nav a {
@@ -81,4 +82,36 @@ header nav a:hover {
 
 .hide {
     display: none;
+}
+
+main {
+    margin: 0 5%;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer nav ul {
+    display: inline-flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav li {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+footer img {
+    width: 50px;
+    filter: grayscale(1);
+}
+
+footer img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
 }
