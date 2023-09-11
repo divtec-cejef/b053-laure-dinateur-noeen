@@ -1,0 +1,22 @@
+li {
+    color: #e71d36;
+    list-style: none;
+}
+
+/*icones n'apparaissent pas ; fichiers n'ont pas de contenu?*/
+
+.img1 {
+    background: url("_sources/images/phone.png") no-repeat 0 65%;
+}
+
+.img2 {
+    background: url("_sources/images/mail.png") no-repeat 0 65%;
+}
+
+.img3 {
+    background: url("_sources/images/twitter.png") no-repeat 0 65%;
+}
+
+.img4 {
+    background: url("_sources/images/facebook.png") no-repeat 0 65%;
+}
