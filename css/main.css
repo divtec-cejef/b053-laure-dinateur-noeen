@@ -45,8 +45,40 @@ header h1 {
     font-size: 1.75rem;
     line-height: 0.8;
     margin: 1rem 0;
+    color: #2ec4b6;
 }
 
 header h2 {
     margin: -5px;
+}
+
+header nav {
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+header nav ul {
+    margin: 0 10px;
+    padding: 0;
+}
+
+header nav li {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    /*ajouter espace de 30 px entre*/
+}
+
+header nav a {
+    color: white;
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+header nav a:hover {
+    color: #2ec4b6;
+}
+
+.hide {
+    display: none;
 }
