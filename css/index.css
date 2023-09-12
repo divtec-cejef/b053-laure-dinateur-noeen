@@ -1,0 +1,21 @@
+main li {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+}
+
+figure {
+    background-color: lightgrey;
+    color: black;
+}
+
+figcaption {
+    padding: 10px;
+    font-size: 1rem;
+    overflow: hidden;
+}
