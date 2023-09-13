@@ -1,5 +1,25 @@
 @media only screen and (min-width: 480px) {
+    main > ul > li {
+        width: calc((100% - 15%) / 3 );
+    }
 
+    main > img {
+        float: left;
+        margin-bottom: 1rem;
+    }
+
+    main > p {
+        clear: left;
+    }
+
+    main #infos {
+        width: 50%;
+    }
+
+    main #contact {
+        width: 40%;
+        margin-left: 10%;
+    }
 }
 
 @media only screen and (min-width: 660px) {
