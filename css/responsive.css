@@ -3,9 +3,39 @@
 }
 
 @media only screen and (min-width: 660px) {
+    header {
+        border-bottom: 5px solid #2ec4b6;
+    }
 
+    header > a {
+        display: inline-block;
+        width: 42%;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header h2 {
+        margin-bottom: 20px;
+    }
+
+    header nav {
+        display: inline-block;
+        width: 48%;
+        margin-right: 5%;
+        font-size: 1.125rem;
+    }
 }
 
 @media only screen and (min-width: 910px) {
+    .hide {
+        display: initial;
+    }
 
+    main, footer {
+        max-width: calc(910px - 5%);
+    }
 }
