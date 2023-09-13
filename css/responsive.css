@@ -12,11 +12,16 @@
         clear: left;
     }
 
+    /*sections #infos et #contact s'affichent l'une sous l'autre au lieu de
+    l'une à côté de l'autre, pas un problème des largeurs*/
+
     main #infos {
+        display: inline-block;
         width: 50%;
     }
 
     main #contact {
+        display: inline-block;
         width: 40%;
         margin-left: 10%;
     }
@@ -27,6 +32,12 @@
         border-bottom: 5px solid #2ec4b6;
     }
 
+    /*Le titre et nav s'affichent l'un en desssous de l'autre au lieu de
+    l'un à côté de l'autre, problème de largeurs
+
+    Les liens sont écris en deux lignes, probablement aussi un problème de
+    largeurs*/
+
     header > a {
         display: inline-block;
         width: 42%;
@@ -36,6 +47,7 @@
 
     header h1 {
         font-size: 2.5rem;
+        text-align: left;
     }
 
     header h2 {
