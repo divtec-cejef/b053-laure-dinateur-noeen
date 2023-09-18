@@ -13,6 +13,7 @@
 <body>
 <header>
     <a href="index.html">
+        <!-- TODO remplacer les titres par des <div> -->
         <h1>Laure Dinateur</h1>
         <h2>Graphiste</h2>
     </a>
@@ -20,6 +21,7 @@
         <ul>
             <li><a class="hide" href="index.html">Acceuil</a></li>
             <li><a href="informations.html">Qui suis-je?</a></li>
+            <!-- Ajouter classe "active" à la page courante -->
             <li><a href="contact.html">Me contacter</a></li>
         </ul>
     </nav>
@@ -36,21 +38,35 @@
     <section id="contact">
         <h2>Informations de contact</h2>
         <ul>
+            <!-- TODO Lien pour tel <a href="tel:0041741234567">...</a> -->
             <li class="img1">074 123 45 67</li>
+            <!-- TODO Lien pour mail <a href="mailto:toto@divtec.ch">...</a> -->
             <li class="img2">laure@dinateur.com</li>
-            <li class="img3"><a href="https://twitter.com/lauredi"  target="_blank">@lauredi</a></li>
-            <li class="img4"><a href="https://www.facebook.com/laure.dinateur"  target="_blank">facebook</a></li>
+            <!-- TODO éviter les lignes de code trop longues -->
+            <li class="img3">
+                <a href="https://twitter.com/lauredi"
+                   target="_blank">@lauredi</a>
+            </li>
+            <li class="img4">
+                <a href="https://www.facebook.com/laure.dinateur"
+                   target="_blank">facebook</a>
+            </li>
         </ul>
     </section>
 </main>
 <footer>
     <nav>
         <ul>
-            <li><a href="https://www.facebook.com/laure.dinateur"  target="_blank">
-                <img src="_sources/images/facebook-draw.png" alt="Dessin du logo de Facebook"></a></li>
+            <li>
+                <a href="https://www.facebook.com/laure.dinateur"  target="_blank">
+                    <img src="_sources/images/facebook-draw.png"
+                         alt="Dessin du logo de Facebook">
+                </a>
+            </li>
             <li><a href="https://twitter.com/lauredi"  target="_blank">
                 <img src="_sources/images/twitter-draw.png" alt="Dessin du logo de Twitter"></a></li>
         </ul>
+        <!-- TODO sortir de la <nav> -->
         <p>©2016 Laure Dinateur</p>
     </nav>
 </footer>
