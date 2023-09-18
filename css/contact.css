@@ -4,7 +4,7 @@ li {
 }
 
 /*icones n'apparaissent pas ; fichiers n'ont pas de contenu?*/
-<!-- TOTO sortir du dossier css avec ../ -->
+/* TODO sortir du dossier css avec ../ */
 .img1 {
     background: url("../_sources/images/phone.png") no-repeat 0 65%;
 }
