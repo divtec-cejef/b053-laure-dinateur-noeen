@@ -15,9 +15,9 @@ body {
 
 h1 {
     font-family: "Changa One", cursive;
-    /* TODO ajouter font-size:400 */
     font-size: 2rem;
     margin-bottom: 1em;
+    font-weight: 400;
 }
 
 h2 {
