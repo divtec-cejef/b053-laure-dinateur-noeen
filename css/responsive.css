@@ -1,4 +1,5 @@
-@media only screen and (min-width: 480px) {
+@media only screen and
+(min-width: 480px) {
     main > ul > li {
         width: calc((100% - 15%) / 3 );
     }
@@ -12,8 +13,8 @@
         clear: left;
     }
 
-    /*sections #infos et #contact s'affichent l'une sous l'autre au lieu de
-    l'une à côté de l'autre, pas un problème des largeurs*/
+    /*TODO sections #infos et #contact s'affichent l'une sous l'autre au lieu de
+       l'une à côté de l'autre, pas un problème de largeurs*/
 
     main #infos {
         display: inline-block;
@@ -27,16 +28,17 @@
     }
 }
 
-@media only screen and (min-width: 660px) {
+@media only screen and
+(min-width: 660px) {
     header {
         border-bottom: 5px solid #2ec4b6;
     }
 
-    /*Le titre et nav s'affichent l'un en desssous de l'autre au lieu de
-    l'un à côté de l'autre, problème de largeurs
+    /* TODO Le titre et nav s'affichent l'un en desssous de l'autre au lieu de
+        l'un à côté de l'autre, problème de largeurs
 
-    Les liens sont écris en deux lignes, probablement aussi un problème de
-    largeurs*/
+    TODO Les liens sont écris en deux lignes, probablement aussi un problème de
+     largeurs */
 
     header > a {
         display: inline-block;
@@ -45,12 +47,12 @@
         text-align: left;
     }
 
-    header h1 {
+    header p:first-of-type {
         font-size: 2.5rem;
         text-align: left;
     }
 
-    header h2 {
+    header p:nth-of-type(2) {
         margin-bottom: 20px;
     }
 
@@ -69,5 +71,6 @@
 
     main, footer {
         max-width: calc(910px - 5%);
+        margin: 0 auto;
     }
 }
