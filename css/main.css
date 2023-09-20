@@ -10,6 +10,7 @@ body {
     font-size: 100%;
     line-height: 1.4;
     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -24,6 +25,7 @@ h2 {
     font-family: "Changa One", cursive;
     font-size: 1.5rem;
     margin-bottom: 0.75em;
+    font-weight: 400;
 }
 
 p {
@@ -42,16 +44,17 @@ header {
     text-align: center;
 }
 
-header h1 {
+header p:first-of-type {
+    font-family: "Changa One", cursive;
     font-size: 1.75rem;
     line-height: 0.8;
     margin: 1rem 0;
     color: #2ec4b6;
 }
 
-header h2 {
-    font-family: "Changa One", cursive;
+header p:nth-of-type(2) {
     margin-top: -5px;
+    font-size: 1.5rem;
 }
 
 header nav {
@@ -84,6 +87,10 @@ header nav a:hover {
 
 .hide {
     display: none;
+}
+
+.active {
+    color: #2ec4b6;
 }
 
 main {
